@@ -1,0 +1,120 @@
+* {
+    box-sizing: border-box;
+    margin: 0;   
+}
+
+body {
+    padding: 1rem;
+    background: hsl(0, 0%, 95%);
+}
+
+main {
+    max-width: 330px;
+    height: fit-content;
+    margin: 0 auto;
+    display: grid;
+    place-items: center;
+}
+
+article {
+    margin: 0;
+    padding: 3.1rem;
+}
+
+.sedan {
+    background: hsl(31, 77%, 52%);
+    border-radius: 10px 10px 0 0;
+}
+
+.suv {
+    background: hsl(184, 100%, 22%);
+}
+
+.luxury {
+    background: hsl(179, 100%, 13%);
+    border-radius: 0 0 10px 10px;
+}
+
+h1 {
+    color: hsl(0, 0%, 95%);
+    font-family: 'Big Shoulders Display', sans-serif;
+    font-size: 2.5rem;
+    font-weight: 700;
+    text-transform: uppercase;
+    margin: 1.75rem 0;
+}
+
+p {
+    color: hsla(0, 0%, 100%, 0.75);
+    font-family: 'Lexend Deca', sans-serif;
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 1.7;
+    margin-top: 0;
+}
+
+button {
+    margin-top: 1.5rem;
+    padding: 0.75rem 2rem;
+    border: 2px solid hsl(0, 0%, 95%);
+    border-radius: 2rem;
+    font-family: 'Lexend Deca', sans-serif;
+    box-shadow: none;
+    font-size: 15px;
+    font-weight: 300;
+    transition: all 200ms ease-in-out;
+    cursor: pointer;
+}
+
+button:focus, button:hover {
+    color: hsl(0, 0%, 95%);
+    border: 2px solid hsl(0, 0%, 95%);
+    background-color: transparent;
+}
+
+.btn-1 {
+    color: hsl(31, 77%, 52%);
+}
+
+.btn-2 {
+    color: hsl(184, 100%, 22%);
+}
+
+.btn-3 {
+    color: hsl(179, 100%, 13%);
+}
+
+/* Breakpoint */
+@media  screen and (min-width: 1200px) {
+    main {
+        min-height: 100vh;
+        max-width: 920px;
+        margin: 0 auto;
+        border-radius: 10px;
+    }
+
+    .container {
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        grid-gap: 0;
+        border-radius: 10px;
+        height: fit-content;
+    }
+
+    article {
+        margin: 0;   
+        padding: 3rem;
+    }
+
+    .sedan {
+        border-radius: 10px 0 0 10px;
+    }
+
+    .luxury {
+        border-radius: 0 10px 10px 0;
+    }
+
+    button {
+        margin-top: 4.5rem;
+    }
+}
