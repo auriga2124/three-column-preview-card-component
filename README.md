@@ -29,7 +29,7 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
+- Solution URL: [Frontend Mentor solution](https://www.frontendmentor.io/solutions/three-column-preview-card-component-using-grid-h4RBIwis2r)
 - Live Site URL: [Live site at Netlify](https://auriga-3-columns-preview-card.netlify.app/)
 
 ## My process
